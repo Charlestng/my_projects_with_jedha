@@ -1,7 +1,7 @@
 import os
 
 def main():
-    print("Cakes are the best!")
+    print("Cakes are the very best!")
     with open("/app/favorites_cakes.txt") as f:
         print(f.read())
     print(f"And I like {os.environ['MY_CAKE']} too!")
